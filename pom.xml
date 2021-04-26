@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.4.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.mqz.base.mars</groupId>
+    <artifactId>mars</artifactId>
+    <version>0.0.1</version>
+    <packaging>pom</packaging>
+    <name>mars</name>
+    <description>the basic project for other project,just like some dependcy and so on</description>
+
+    <modules>
+        <module>mars-swagger</module>
+        <module>mars-base</module>
+    </modules>
+
+    <properties>
+        <java.version>1.8</java.version>
+
+        <swagger.version>2.9.2</swagger.version>
+        <swagger.boostrapui.version>1.9.3</swagger.boostrapui.version>
+        <swagger.annotation.version>1.5.22</swagger.annotation.version>
+        <swagger.models.version>1.5.22</swagger.models.version>
+
+        <lombok.version>1.18.16</lombok.version>
+
+    </properties>
+    <dependencies>
+
+    </dependencies>
+
+</project>
