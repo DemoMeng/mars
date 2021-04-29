@@ -28,7 +28,7 @@
         <swagger.annotation.version>1.5.22</swagger.annotation.version>
         <swagger.models.version>1.5.22</swagger.models.version>
 
-        <lombok.version>1.18.16</lombok.version>
+        <!--<lombok.version>1.18.16</lombok.version>-->
 
     </properties>
     <dependencies>
