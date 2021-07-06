@@ -19,6 +19,7 @@
     </properties>
     <dependencies>
 
+        <!-- swagger===start -->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
@@ -42,6 +43,9 @@
             <artifactId>swagger-models</artifactId>
             <version>${swagger.models.version}</version>
         </dependency>
+        <!-- swagger===end -->
+
+
     </dependencies>
 
 </project>

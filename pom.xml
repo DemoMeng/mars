@@ -15,10 +15,30 @@
     <name>mars</name>
     <description>the basic project for other project,just like some dependcy and so on</description>
 
+
+    <dependencies>
+            <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-deploy-plugin -->
+            <dependency>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>2.8</version>
+            </dependency>
+
+    </dependencies>
+
     <modules>
         <module>mars-swagger</module>
         <module>mars-base</module>
     </modules>
+
+    <distributionManagement>
+        <repository>
+            <id>rdc</id>
+            <url>https://packages.aliyun.com/maven/repository/2115331-release-XoXsWj/</url>
+            <name></name>
+        </repository>
+
+    </distributionManagement>
 
     <properties>
         <java.version>1.8</java.version>
@@ -28,11 +48,9 @@
         <swagger.annotation.version>1.5.22</swagger.annotation.version>
         <swagger.models.version>1.5.22</swagger.models.version>
 
-        <!--<lombok.version>1.18.16</lombok.version>-->
+        <jwt.version>0.9.0</jwt.version>
+        <lombok.version>1.18.14</lombok.version>
 
     </properties>
-    <dependencies>
-
-    </dependencies>
 
 </project>
