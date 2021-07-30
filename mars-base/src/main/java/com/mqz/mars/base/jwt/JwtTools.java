@@ -39,7 +39,7 @@ public class JwtTools {
     private static String userIdKey;
     private static String roleIdListKey;
 
-    // TODO 通用的配置移到配置中心
+    // TODO 通用的配置移到配置中心，因为用了这个@Value所以在mars-base加入了spring的依赖，耦合程度过大，并且容易和使用方产生依赖冲突 。！
     @Value("${jwt.secret:Mars-Cloud}")
     public void setSecret(String secret){
         JwtTools.secret = secret;

@@ -15,6 +15,22 @@
     <name>mars</name>
     <description>the basic project for other project,just like some dependcy and so on</description>
 
+    <properties>
+        <java.version>1.8</java.version>
+        <swagger.version>2.9.2</swagger.version>
+        <swagger.boostrapui.version>1.9.3</swagger.boostrapui.version>
+        <swagger.annotation.version>1.5.22</swagger.annotation.version>
+        <swagger.models.version>1.5.22</swagger.models.version>
+        <jwt.version>0.9.0</jwt.version>
+        <lombok.version>1.18.14</lombok.version>
+    </properties>
+
+    <modules>
+        <module>mars-swagger</module>
+        <module>mars-base</module>
+        <module>mars-redis</module>
+    </modules>
+
 
     <dependencies>
             <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-deploy-plugin -->
@@ -26,12 +42,6 @@
 
     </dependencies>
 
-    <modules>
-        <module>mars-swagger</module>
-        <module>mars-base</module>
-        <module>mars-redis</module>
-    </modules>
-
     <distributionManagement>
         <repository>
             <id>rdc</id>
@@ -40,18 +50,5 @@
         </repository>
 
     </distributionManagement>
-
-    <properties>
-        <java.version>1.8</java.version>
-
-        <swagger.version>2.9.2</swagger.version>
-        <swagger.boostrapui.version>1.9.3</swagger.boostrapui.version>
-        <swagger.annotation.version>1.5.22</swagger.annotation.version>
-        <swagger.models.version>1.5.22</swagger.models.version>
-
-        <jwt.version>0.9.0</jwt.version>
-        <lombok.version>1.18.14</lombok.version>
-
-    </properties>
 
 </project>
