@@ -42,13 +42,37 @@
 
     </dependencies>
 
-    <distributionManagement>
+    <repositories>
         <repository>
+            <id>central</id>
+            <name>Maven myself Mirror</name>
+            <url>http://192.168.2.11:8081/repository/maven-central/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+
+    <distributionManagement>
+        <!--<repository>
             <id>rdc</id>
             <url>https://packages.aliyun.com/maven/repository/2115331-release-XoXsWj/</url>
             <name></name>
+        </repository>-->
+        <repository>
+            <id>releases</id>
+            <name>Releases</name>
+            <url>http://192.168.2.11:8081/repository/maven-releases/</url>
         </repository>
-
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Snapshot</name>
+            <url>http://192.168.2.11:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
     </distributionManagement>
 
 </project>
