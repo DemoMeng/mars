@@ -23,12 +23,14 @@
         <swagger.models.version>1.5.22</swagger.models.version>
         <jwt.version>0.9.0</jwt.version>
         <lombok.version>1.18.14</lombok.version>
+        <okhttp3.version>4.2.1</okhttp3.version>
     </properties>
 
     <modules>
         <module>mars-swagger</module>
         <module>mars-base</module>
         <module>mars-redis</module>
+        <module>mars-validation</module>
     </modules>
 
 

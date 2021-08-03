@@ -1,3 +1,4 @@
+HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -30,6 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
-mars-validation/.mvn/wrapper/maven-wrapper.jar
-mars-validation/.mvn/wrapper/maven-wrapper.properties
-mars-validation/.mvn/wrapper/MavenWrapperDownloader.java
