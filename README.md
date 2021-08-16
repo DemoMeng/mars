@@ -8,9 +8,10 @@
     - RabbitMQ
     - Zookeeper
     - Dubbo
-    - Mysql
+    - Mybatis & Generator
     - Common
     - elk 
+    
 
 
 
