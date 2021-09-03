@@ -33,6 +33,7 @@
         <module>mars-base</module>
         <module>mars-redis</module>
         <module>mars-validation</module>
+        <module>mars-swagger-better</module>
     </modules>
 
 
